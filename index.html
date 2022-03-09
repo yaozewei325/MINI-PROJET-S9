@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Journalier</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <h1>Le journalier</h1>
+    <main>
+        <section>
+            <h2>Devenez journaliste</h2>
+            <form action="URL.html" method="POST">
+                <div class="block">
+                    <label for="nom">Nom</label>
+                    <input type="text" name="nom" id="nom" minlength="20" maxlength="100" required>
+                </div>
+                <div class="block">
+                    <label for="nom">Brève biographie</label>
+                    <textarea name="" id="" cols="30" rows="3"></textarea>
+                </div>
+                <div class="choice">
+                    <div id="bio">
+                        <label for="bio">Spécialité</label>
+                        <select name="bio" id="bio">
+                            <option value="pltq">Politique</option>
+                            <option value="trsm">Faits divers</option>
+                            <option value="econ">Nouvelles internationales</option>
+                        </select>
+                    </div>
+                    <div id="color">
+                        <label for="color">Couleur préférée</label>
+                        <select name="color" id="color">
+                            <option value="ds">#15497DFF</option>
+                            <option value="rp"> #1F5EA0FF</option>
+                            <option value="et">blue</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div id="button" class="control">
+                    <button type="submit">Soumettre</button>
+                    <button type="reset">Annuler</button>
+                </div>
+
+            </form>
+        </section>
+
+        <section>
+            <h2>Notre équipe</h2>
+            <div class="equipe">
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
+        </section>
+    </main>
+
+
+</body>
+
+</html>
